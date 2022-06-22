@@ -28,4 +28,9 @@ It includes some python codes and two .xml algorithm files for Byte used.
 * main.py (This is the main code programmed with the aim to implement the visual detection and the inverse kinematic...
 ... that contains the real implementation for the tracking. It has a commented part which is the IK tracking, but it requires the modifying and calculating its complement angles)
 
+# *Matlab Folder
+It includes the scripts for the tracking simulation of Byte.
+
+* image_procesing_byte.m (Run this script in MATLAB)
+
 
