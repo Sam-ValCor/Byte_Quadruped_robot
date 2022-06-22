@@ -162,6 +162,11 @@ while True:
 
     # qn's are the calculated angles for each servo of the legs
     # back right leg
+    """Para cada función por pierna se requiere calcular y modificar las compesaciones del angulo basado en su análisis cinemático
+    por ejemplo:
+     q2_rb = np.rad2deg(- q_cal[10] + np.pi) # Aquí se necesita modificar la compesación de 180° o np.pi porque no esta correcta...
+      y sobre pasa el rango trabajo de los servo el cual debe ir de 0 a 180)
+    """
     q1_rb = np.rad2deg(q_cal[9] + (np.pi / 2))  # -pi/2 < q1 < pi/2  # q1 servo roll
     q2_rb = np.rad2deg(- q_cal[10] + np.pi)  # 0 < q2 < pi # q2 servo pitch
     q3_rb = np.rad2deg(np.pi / 2 - q_cal[11] + q_cal[10])  # 0 < q3 < pi  # q3 servo pitch
