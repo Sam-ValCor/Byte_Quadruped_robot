@@ -10,6 +10,10 @@ git add README.md  <br />
 git commit -m "First commit"  <br /> 
 git remote add origin master https://https://github.com/Sam-ValCor/Byte_Quadruped_robot.git  <br />
 git push -u origin master  <br />
+
+# Python Folder
+It includes some python codes and two .xml algorithm files for Byte used.
+
 # Here are several python codes and two .xml algorithm files for Byte used.
 * Cam_Test.py ( An individual test to detect faces and visualize its behaviour.)
 * constants.py (Those are the constants defined for servo motors, values for distance between servo links, among others.)
