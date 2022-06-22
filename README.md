@@ -3,7 +3,8 @@ Byte Researching project from ITESM GDL
 
 For new repository on command line:
 
-echo "# test<br /> " >> README.md   <br />
+echo "# test" >> README.md 
+<br />
 git init   <br />
 git add README.md  <br />
 git commit -m "First commit"  <br /> 
