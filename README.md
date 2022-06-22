@@ -1,7 +1,7 @@
 # Byte_Quadruped_robot
 Byte Researching project from ITESM GDL
 
-For new repository on command line:
+#For new repository on command line:
 
 echo "# test" >> README.md 
 <br />
