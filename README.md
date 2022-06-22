@@ -11,6 +11,8 @@ git commit -m "First commit"  <br />
 git remote add origin master https://https://github.com/Sam-ValCor/Byte_Quadruped_robot.git  <br />
 git push -u origin master  <br />
 
+The python scripts are development for a Jetson Nano microcontroller.
+
 #  *Python Folder
 It includes some python codes and two .xml algorithm files for Byte used.
 
